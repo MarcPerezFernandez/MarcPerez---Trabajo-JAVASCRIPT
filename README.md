@@ -56,13 +56,14 @@ Abrir el archivo `index.html` en un navegador web.
 
 ## Repositorio
 
-
+https://github.com/MarcPerezFernandez/MarcPerez---Trabajo-JAVASCRIPT
 
 ## Hosting
 
-
+https://marcperezfernandez.github.io/MarcPerez---Trabajo-JAVASCRIPT/
 
 ## Autor
 
 Marc Pérez Fernández
 Proyecto académico 2024/2025
+
