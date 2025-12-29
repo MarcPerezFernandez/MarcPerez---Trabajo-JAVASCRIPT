@@ -1,0 +1,57 @@
+{
+    "navItems":[
+        {
+            "title": "Inicio",
+            "url": "index.html"
+        },
+        {
+            "title": "Galería",
+            "url": "galeria.html"
+        },
+        {
+            "title": "Presupuesto",
+            "url": "presupuesto.html"
+        },
+        {
+            "title": "Contacto",
+            "url": "contacto.html"
+        }
+    ],
+    "socialLinks":[
+        {
+            "name": "Facebook",
+            "urlRed": "https://www.facebook.com/",
+            "icon": "Assets/Images/facebook.svg",
+            "altText": "Facebook"
+        },
+        {
+            "name": "Tiktok",
+            "urlRed": "https://www.tiktok.com/",
+            "icon": "Assets/Images/tiktok.svg",
+            "altText": "Tiktok"
+        },
+        {
+            "name": "Instagram",
+            "urlRed": "https://www.instagram.com/",
+            "icon": "Assets/Images/instagram.svg",
+            "altText": "Instagram"
+        }
+    ],
+    "address": "Carretera Bailén - Motril, km 12 (18160) Sierra Nevada",
+    "noticias":[
+        {
+            "nombre": "Nueva pista de esquí abierta",
+            "fecha": "15 de junio de 2024",
+            "descripcion": "¡Bienvenidos a la estación de esquí más emocionante! Aquí encontrarás las últimas noticias sobre nuestras pistas, eventos y promociones especiales para que disfrutes al máximo de tu experiencia en la nieve.",
+            "imagen": "Assets/Images/noticias-nueva pista.jpg",
+            "altTexto": "Imagen de la nueva pista de esquí"
+        },
+        {
+            "nombre": "Nueva Escuela de Esquí",
+            "fecha": "10 de junio de 2024",
+            "descripcion": "¡Abre la nueva escuela de esqui y snowboard para juniors! Clases para todas las edades y niveles. ¡Inscríbete hoy y mejora tus habilidades en la nieve con nuestros instructores expertos!",
+            "imagen": "Assets/Images/noticias-escuela.jpg",
+            "altTexto": "Imagen de la escuela de esquí"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Presupuesto de estancias</title>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <img src="Assets/Images/la-sierra.png" alt="La Sierra">
+        </div>
+        <div class="navbar" id="navbar"></div>
+    </header>
+    <main>
+        <section class="section" id="contacto">
+            <div class="formulario-container">
+                <form id="form" class="formulario">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <div class="input-contenedor">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre del usuario" maxlength="15" required>
+                            <span class="error" id="nombreError"></span>
+                        </div>
+                        <div class="input-contenedor">
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos del usuario" maxlength="40" required>
+                            <span class="error" id="apellidosError"></span>
+                        </div>
+                        <div class="input-contenedor">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" maxlength="9" required>
+                            <span class="error" id="telefonoError"></span>
+                        </div>
+                        <div class="input-contenedor">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                            <span class="error" id="emailError"></span>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Presupuesto</legend>
+                        <label for="seleccion-habitacion">Selecciona un producto:</label>
+                        <select name="seleccion-habitacion" id="seleccion-habitacion" required>
+                            <option value="">--Tipo de estancia--</option>
+                            <option value="Estancia Regular:99.99">Regular - 99.99€</option>
+                            <option value="Estancia Premium:149.99">Premium - 149.99€</option>
+                            <option value="Estancia Luxury:199.99">Luxury - 199.99€</option>
+                        </select>
+                        <br>
+                        <label for="dias">
+                            Dias de estancia:
+                            <input type="number" id="dias" name="dias" placeholder="Días de estancia" min="1" required>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Extras</legend>
+                        <div class="extras">
+                            <label>
+                                <input type="checkbox" class="checkbox-extra" value="Clase de esquí:20">
+                                Clase de esquí: 20€
+                            </label>
+                            <label>
+                                <input type="checkbox" class="checkbox-extra" value="Forfait:50">
+                                Forfait: 50€
+                            </label>
+                            <label>
+                                <input type="checkbox" class="checkbox-extra" value="Alquiler de equipo:80">
+                                Alquiler de equipo: 80€
+                            </label>
+                            <button type="button" class="btn-anadir" id="anadir-al-carrito">Añadir</button>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Presupuesto total</legend>
+                        <div id="presupuesto-total-container">
+                            <p id="presupuesto-total" value="0€" readonly></p>
+                            <div id="lista-presupuesto"></div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Condiciones de servicio</legend>
+                        <label for="terminos">
+                            <input type="checkbox" id="terminos" name="terminos" required>
+                            Acepto los términos y condiciones del servicio
+                        </label>
+                        <div class="button-contenedor">
+                            <button type="submit">Solicitar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="redes" id="redes"></div>
+        <div class="copy" id="copy"></div>
+    </footer>
+    <script src="Js/navbar.js"></script>
+    <script src="Js/formulario.js"></script>
+    <script src="Js/presupuesto.js"></script>
+    <script src="Js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <img src="Assets/Images/la-sierra.png" alt="La Sierra">
+        </div>
+        <div class="navbar" id="navbar"></div>
+    </header>
+    <main>
+        <section class="info-empresa">
+            <h2>La Sierra – Estación de Esquí</h2>
+            <p class="descripcion">
+                La Sierra es una estación de esquí situada en un entorno natural privilegiado,
+                orientada a ofrecer experiencias únicas tanto a esquiadores principiantes como
+                avanzados. Contamos con pistas para todos los niveles, escuela de esquí,
+                alquiler de material y alojamiento en la propia estación.
+            </p>
+            <br>
+            <ul class="datos-contacto">
+                <li><strong>Dirección:</strong> Carretera Bailén - Motril, km 12, 18160 Sierra Nevada, Granada</li>
+                <li><strong>Teléfono:</strong> +34 958 123 456</li>
+                <li><strong>Email:</strong> info@lasierra-ski.es</li>
+                <li><strong>Horario (temporada de invierno):</strong> Lunes a domingo · 08:00 – 18:00</li>
+                <li><strong>Horario (temporada baja):</strong> Lunes a viernes · 09:00 – 15:00</li>
+            </ul>
+        </section>
+        <div class="map" id="map"></div>
+    </main>
+    <footer>
+        <div class="redes" id="redes"></div>
+        <div class="copy" id="copy"></div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="Js/navbar.js"></script>
+    <script src="Js/geolocalizacion.js"></script>
+    <script src="Js/footer.js"></script>
+</body>
+</html>
